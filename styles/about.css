@@ -1,0 +1,11 @@
+#about {
+    width: 100%;
+}
+#about h1 {
+    text-align: center;
+    margin: 45px 0;
+    text-decoration: underline wavy #6a41be;
+}
+.my-detail {
+    margin: 70px 0 257px;
+}
