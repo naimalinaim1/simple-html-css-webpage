@@ -64,9 +64,8 @@ img {
     padding: 10px 15px;
     border-radius: 7px;
     box-shadow: 1px 1px 30px #6a41be;
-    margin-top: 90px;
+    margin-top: 70px;
 }
-
 .hero-image img {
     border-radius: 7%;
     height: 90%;
@@ -92,7 +91,6 @@ img {
 .inner-service h2 {
     text-align: center;
     text-decoration: underline wavy #6a41be;
-    
 }
 .services {
     display: grid;
@@ -115,4 +113,45 @@ img {
 }
 .service-content p {
     color: #ddd;
+}
+/* Subscribe option*/
+#subscribe-email {
+    width: 100%;
+}
+.inner-subscribe {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.inner-subscribe h2 {
+    text-align: center;
+    text-decoration: underline wavy #6a41be;
+}
+.inner-subscribe form {
+    width: 600px;
+    background: deepskyblue;
+    margin: 45px auto 0;
+    padding: 10px ;
+    border: 1px solid;
+    border-radius: 7px;
+}
+.inner-subscribe form input {
+    width: 70%;
+    height: 35px;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 17px;
+    color: #383434;
+}
+
+.inner-subscribe form input[type="submit"] {
+    width: 25%;
+    height: 45px;
+    color: black;
+    font-size: 18px;
+}
+.inner-subscribe form input[type="submit"]:hover {
+    color: deepskyblue;
+    background: #6a41be;
 }
