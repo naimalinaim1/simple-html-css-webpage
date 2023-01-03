@@ -119,8 +119,8 @@ img {
     width: 100%;
 }
 .inner-subscribe {
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 200px;
 }
 .inner-subscribe h2 {
     text-align: center;
@@ -154,4 +154,43 @@ img {
 .inner-subscribe form input[type="submit"]:hover {
     color: deepskyblue;
     background: #6a41be;
+}
+
+/*footer area*/
+#footer {
+    width: 100%;
+    background: black;
+}
+.inner-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 25px 0;
+}
+.copyright-area {
+    border-right: 1px solid rgb(59, 56, 56);
+}
+.copyright-area p {
+    color: #9a9393;
+    font-size: 15px;
+    margin: 0;
+}
+
+.social-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.social-area ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.social-area ul li a {
+    color: #9a9393;
+    font-size: 15px;
+    text-decoration: none;
+}
+.social-area ul li a:hover {
+    color: #6a41be;
 }
