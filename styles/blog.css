@@ -1,0 +1,42 @@
+/* blog area css */
+#blog {
+    width: 100%;
+}
+.blog-context {
+    margin: 45px auto 180px;
+}
+.blog-context h1 {
+    text-align: center;
+    text-decoration: underline wavy #6a41be;
+}
+.blogs {
+    margin-top: 70px;
+}
+.blog {
+    background: #ddd;
+    border-radius: 7px;
+    padding: 10px 25px 40px;
+    margin-bottom: 40px;
+}
+.blog-title {
+    font-size: 15px;
+}
+.blog-title span {
+    color: #6a41be;
+    font-size: 18px;
+}
+.blog-detail {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+}
+
+.blog-image img {
+    border-radius: 7px;
+    height: 350px;
+}
+
+.blog-text p {
+    margin: 0;
+    text-align: justify;
+}
