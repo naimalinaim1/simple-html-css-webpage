@@ -33,6 +33,10 @@ img {
     font-family: 'Pacifico', cursive;
     margin: 0;
 }
+.logo h1 a {
+    color: #f2ecec;
+    text-decoration: none;
+}
 /*top menu area css*/
 .menu ul { 
     margin: 0;
