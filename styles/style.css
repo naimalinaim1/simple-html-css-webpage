@@ -64,7 +64,7 @@ img {
     padding: 10px 15px;
     border-radius: 7px;
     box-shadow: 1px 1px 30px #6a41be;
-    margin-top: 40px;
+    margin-top: 90px;
 }
 
 .hero-image img {
@@ -80,5 +80,39 @@ img {
 .hero-text h2 {
     font-size: 40px;
     margin: 0;
+}
 
+/*Service area css*/
+#service-area {
+    width: 100%;
+}
+.inner-service {
+    margin-top: 90px;
+}
+.inner-service h2 {
+    text-align: center;
+    text-decoration: underline wavy #6a41be;
+    
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 35px;
+}
+.service-content {
+    height: 200px;
+    color: #fff;
+    background: #6b41bec4;
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px black;
+    padding: 20px 15px;
+    text-align: center;
+}
+.service-content h3 {
+    margin: 15px 0 25px;
+    text-decoration: underline wavy #ddd6d6;
+}
+.service-content p {
+    color: #ddd;
 }
