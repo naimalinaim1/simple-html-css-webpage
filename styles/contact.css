@@ -28,4 +28,8 @@
     width: 98.5%;
     height: 50px;
     background: #6a41be;
+    font-size: 22px;
+}
+.form input[type="submit"]:hover {
+    color: #fff;
 }
