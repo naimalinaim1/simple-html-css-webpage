@@ -34,8 +34,6 @@ img {
     margin: 0;
 }
 /*top menu area css*/
-.menu {
-}
 .menu ul { 
     margin: 0;
     padding: 0;
@@ -52,4 +50,35 @@ img {
 }
 .menu ul li a:hover {
     color: #f5eded;
+}
+
+/*Hero area css*/
+#hero-area {
+    width: 100%;
+}
+.inner-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px #6a41be;
+    margin-top: 40px;
+}
+
+.hero-image img {
+    border-radius: 7%;
+    height: 90%;
+}
+/*hero-text*/
+
+.hero-text h1 {
+    font-size: 45px;
+    margin: 15px 0 5px ;
+}
+.hero-text h2 {
+    font-size: 40px;
+    margin: 0;
+
 }
