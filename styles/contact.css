@@ -1,0 +1,31 @@
+#contact {
+    width: 100%;
+    margin-bottom: 11px;
+}
+#contact h1 {
+    text-align: center;
+    text-decoration: underline wavy #6a41be;
+    margin: 45px 0 60px;
+}
+.form {
+    width: 80%;
+    padding: 40px 30px;
+    margin: auto;
+}
+.form input, textarea {
+    width: 95%;
+    height: 30px;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(19, 113, 113, 0.692);
+    border-radius: 7px;
+    font-size: 15px;
+}
+.form textarea {
+    height: 250px;
+}
+.form input[type="submit"] {
+    width: 98.5%;
+    height: 50px;
+    background: #6a41be;
+}
