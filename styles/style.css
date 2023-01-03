@@ -1,0 +1,55 @@
+/*Basic css*/
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    width: 96%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Header Area Css */
+#header {
+    width: 100%;
+    background: #6a41be;
+}
+.inner-header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px calc(100% - 200px);
+    padding: 10px 0;
+}
+
+/*Logo area css*/
+.logo {
+    width: 200px;
+}
+.logo h1 {
+    color: #f2ecec;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+/*top menu area css*/
+.menu {
+}
+.menu ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ddd;
+}
+.menu ul li a:hover {
+    color: #f5eded;
+}
