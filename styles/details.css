@@ -1,0 +1,20 @@
+#details {
+    width: 100%;
+    margin-bottom: 368px;
+}
+#details h1 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline wavy #6a41be;
+}
+.my-info {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: space-evenly;
+}
+.my-info h2 {
+    font-size: 30px;
+    color: red;
+    margin-top: 70px;
+}
+

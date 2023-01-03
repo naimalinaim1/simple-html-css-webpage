@@ -1,17 +1,5 @@
 /*Basic css*/
-body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-}
-.container {
-    width: 96%;
-    max-width: 1170px;
-    margin: 0 auto;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 /* Header Area Css */
 #header {
     width: 100%;
@@ -161,7 +149,7 @@ img {
 }
 
 /*footer area*/
-#footer {
+/* #footer {
     width: 100%;
     background: black;
 }
@@ -197,4 +185,4 @@ img {
 }
 .social-area ul li a:hover {
     color: #6a41be;
-}
+} */
